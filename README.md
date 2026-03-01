@@ -67,4 +67,7 @@ After writing this code run the program
 Run the program and a frame will open in which :
 Your human face emotion recognition with emotions like Sad,happy,Angry,Confused or evenNeutral will be detected with 95% accuracy.
 ## Output:
+![alt text](<../Screenshot 2026-03-01 140906.png>)
+## Result:
 The human face recognition project works suuccesfully with 95% accuracy.
+
