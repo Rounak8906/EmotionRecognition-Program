@@ -21,7 +21,7 @@ In the ```serialization```,right click and choose the option ```edit with Notepa
 after opeing the file in Notepad press ```ctrl + f``` and search for ``` def load```.
 In ```def load``` change :
 
-```
+```python
 def load(
     f: FileLike,
     map_location: MAP_LOCATION = 'None',
@@ -33,7 +33,7 @@ def load(
 ) 
 ```
 to 
-```
+```python
 def load(
     f: FileLike,
     map_location: MAP_LOCATION = 'cpu',
@@ -46,7 +46,7 @@ def load(
 ```
 ### Step 6:
 Now open pyhton idle file to write the python progam for the project : 
-```
+```python
 from facial_emotion_recognition import EmotionRecognition
 import cv2
 
